@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
+import os
 # Get the directory of the current file (app.py)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # Build the file path relative to app.py
