@@ -3,12 +3,15 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
-# Load the dataset
-FILE_PATH = r"C:\Users\Chabri Ganesh\Indian_Kids_Screen_Time.csv"
+# Get the directory of the current file (app.py)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# Build the file path relative to app.py
+FILE_PATH = os.path.join(BASE_DIR, "Indian_Kids_Screen_Time.csv")
 @st.cache_data
 def load_data():
     df = pd.read_csv(FILE_PATH)
     return df
+
 df = load_data()
 st.title("Indian Kids' Screen Time Analysis")
 st.markdown("""
