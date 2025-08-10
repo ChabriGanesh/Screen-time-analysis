@@ -1,1 +1,7 @@
-pip install pandas matplotlib seaborn openpyxl plotly
+streamlit
+pandas
+matplotlib
+seaborn
+openpyxl
+plotly
+
