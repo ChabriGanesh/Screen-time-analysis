@@ -19,7 +19,7 @@ The model is created in JupyterLab by using Python coding language.
    print("\n📈 Summary Stats:")
    print(df.describe())
 7. Using 'matplotlib' library, create a bar graph for 'Average Screen Time By Age':
-    Hue: hue=age_group_mean.index
+    Hue: hue=age_group_mean.index<br>
     Explanation:
     The hue here is set to the age group categories (e.g., age ranges like 8-10, 11-13, etc.), so each bar in the plot has a distinct color representing each age group.
     This enhances visual separation of age groups, making it easier to compare average screen time across different age categories through color coding.
@@ -32,7 +32,7 @@ The model is created in JupyterLab by using Python coding language.
     palette="viridis",
     legend=False
     )
-8. <ins>Using 'matplotlib' library, create a boxplot for 'Screen Time Distribution by Gender':</ins>
+8. Using 'matplotlib' library, create a boxplot for 'Screen Time Distribution by Gender':
     Hue: hue="Gender"
     Explanation:
     The hue is set to the gender of the children ("Gender" column), so the plot uses different colors for each gender category (e.g., Male, Female).
