@@ -97,6 +97,7 @@ The model is created in JupyterLab by using Python coding language.
     """)
    ---
    Add the necessary model code and 'plt.' codes.
+
 17. Save it and open Prompt.
 18. Mention the path directory and paste the code.
     ```
