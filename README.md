@@ -13,12 +13,9 @@ The model is created in JupyterLab by using Python coding language.
 5. After installing, import the necessary libraries.
 6. Save the datas as dataframes through 'pandas' library by this:
         ```python
-   import pandas as pd
-
-   df = pd.read_csv(r"C:\Users\Chabri Ganesh\Indian_Kids_Screen_Time.csv")
-   print("📊 Data Preview:")
-   print(df.head())
-
-   print("\n📈 Summary Stats:")
-   print(df.describe())
+   ```df = pd.read_csv(r"C:\Users\Chabri Ganesh\Indian_Kids_Screen_Time.csv")
+   ```print("📊 Data Preview:")
+   ```print(df.head())
+   ```print("\n📈 Summary Stats:")
+   ```print(df.describe())
 8.  
