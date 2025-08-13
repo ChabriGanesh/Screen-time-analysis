@@ -95,11 +95,12 @@ The model is created in JupyterLab by using Python coding language.
     Explore and analyze screen time patterns of Indian children aged 8 to 18 years.
     Use the filters below to refine the data.
     """)
+   ---
    Add the necessary model code and 'plt.' codes.
 17. Save it and open Prompt.
 18. Mention the path directory and paste the code.
-   
-      streamlit run app.py
+    ```
+    streamlit run app.py
 19. The web app would run.
 
 ## Creating Repository
