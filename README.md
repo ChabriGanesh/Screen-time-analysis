@@ -18,7 +18,7 @@ The model is created in JupyterLab by using Python coding language.
    print(df.head())
    print("\n📈 Summary Stats:")
    print(df.describe())
-7. Using 'matplotlib' library, create a bar graph for 'Average Screen Time By Age':
+7. <ins>Using 'matplotlib' library, create a bar graph for 'Average Screen Time By Age':</ins>
    Hue: hue=age_group_mean.index
    Explanation:
    The hue here is set to the age group categories (e.g., age ranges like 8-10, 11-13, etc.), so each bar in the plot has a distinct color representing each age group.
@@ -32,7 +32,7 @@ The model is created in JupyterLab by using Python coding language.
     palette="viridis",
     legend=False
     )
-8. Using 'matplotlib' library, create a boxplot for 'Screen Time Distribution by Gender':
+8. <ins>Using 'matplotlib' library, create a boxplot for 'Screen Time Distribution by Gender':</ins>
    Hue: hue="Gender"
    Explanation:
    The hue is set to the gender of the children ("Gender" column), so the plot uses different colors for each gender category (e.g., Male, Female).
@@ -47,7 +47,7 @@ The model is created in JupyterLab by using Python coding language.
    palette="pastel",
    legend=False
    )
-9. Using 'matplotlib' library, create a distribution plot for 'Distribution of Screen Time (Hours)':
+9. <ins>Using 'matplotlib' library, create a distribution plot for 'Distribution of Screen Time (Hours)':</ins>
    Hue: Not used (single continuous variable histogram)
    Explanation:
    There is no hue here since it’s a histogram of a single numeric variable.
@@ -55,7 +55,7 @@ The model is created in JupyterLab by using Python coding language.
    ```
     plt.figure(figsize=(6,4))
     sns.histplot(df["Avg_Daily_Screen_Time_hr"], bins=10, kde=True, color="skyblue")
-10. Using 'matplotlib' library, create a distribution plot for 'Primary Screen Device Usage Count':
+10. <ins>Using 'matplotlib' library, create a distribution plot for 'Primary Screen Device Usage Count':</ins>
     Hue: hue="Primary_Device"
     Explanation:
     Here hue is set to the device type used primarily by children (e.g., smartphone, tablet, etc.). Each device category gets its own color in the count bars.
@@ -70,7 +70,7 @@ The model is created in JupyterLab by using Python coding language.
     order=df["Primary_Device"].value_counts().index,
     legend=False
     )
-11. Using 'matplotlib' library, create a distribution plot for 'Health Impacts Report':
+11. <ins>Using 'matplotlib' library, create a distribution plot for 'Health Impacts Report':</ins>
     Hue: hue="Health_Impacts"
     Explanation:
     The hue corresponds to various health impact categories reported (e.g., eyesight issues, headaches, etc.). Each category is shown in a different color in the count bars tuned horizontally.
@@ -85,7 +85,7 @@ The model is created in JupyterLab by using Python coding language.
     palette="coolwarm",
     legend=False
     )
-12. Using 'matplotlib' library, create a distribution plot for 'Children Exceed Recommended Screen Time Limits':
+12. <ins>Using 'matplotlib' library, create a distribution plot for 'Children Exceed Recommended Screen Time Limits':</ins>
     Hue: hue="Exceeded_Recommended_Limit"
     Explanation:
     The hue uses the binary indicator showing whether children exceed recommended limits (0 = No, 1 = Yes).
