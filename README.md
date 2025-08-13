@@ -6,7 +6,7 @@ The dataset are inputted through Kaggle (indian-kids-screentime-2025).
 The model is created in JupyterLab by using Python coding language.
 
 ## <ins>Process of analysis</ins>
-1. The dataset should be downloaded to local network in which we code (PC, ocal server, or development machine) to ensure fast, offline access.
+1. The dataset should be downloaded to local network in which we code (PC, Local server, or development machine) to ensure fast, offline access.
 2. Specify the directory for the dataset to apply in the analysis.
 3. Create a notebook in JupyterLab for the analysis with the extension .jpynb (if it is Jupyter only).
 4. Install the accurate packages which are needed for analysis.
@@ -108,7 +108,7 @@ The model is created in JupyterLab by using Python coding language.
 1. Install GitHub Desktop.
 2. Shift all the files to the folder of Github.
 3. Push the files.
-4. All the fiels would be loaded in GitHub.
+4. All the files would be loaded in GitHub.
 5. In Streamlit Cloud Community, Click -> 'Create App', mention the repo and the app file.
 6. Deploy, The app is ready for public view.
 
