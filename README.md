@@ -43,8 +43,8 @@ The model is created in JupyterLab by using Python coding language.
     ```
     plt.figure(figsize=(6,4))
     sns.histplot(df["Avg_Daily_Screen_Time_hr"], bins=10, kde=True, color="skyblue")
-11.  Using 'matplotlib' library, create a distribution plot for 'Primary Screen Device Usage Count':
-     ```
+11. Using 'matplotlib' library, create a distribution plot for 'Primary Screen Device Usage Count':
+    ```
     plt.figure(figsize=(8,5))
     sns.countplot(
     data=df,
@@ -54,8 +54,8 @@ The model is created in JupyterLab by using Python coding language.
     order=df["Primary_Device"].value_counts().index,
     legend=False
     )
-12.  Using 'matplotlib' library, create a distribution plot for 'Health Impacts Report':
-     ```
+12. Using 'matplotlib' library, create a distribution plot for 'Health Impacts Report':
+    ```
     plt.figure(figsize=(10,5))
     sns.countplot(
     data=df,
@@ -66,7 +66,7 @@ The model is created in JupyterLab by using Python coding language.
     legend=False
     )
 13. Using 'matplotlib' library, create a distribution plot for 'Children Exceed Recommended Screen Time Limits':
-     ```
+    ```
     plt.figure(figsize=(5,4))
     sns.countplot(
     data=df,
@@ -78,7 +78,7 @@ The model is created in JupyterLab by using Python coding language.
 14. Create a folder as 'Screen-Time-app' for creating a web application for the model.
 15. Create a python file inside the folder as 'app.py'.
 16. Using Streamlit, make a web application with necessary codes:
-     ```
+    ```
     import streamlit as st
     import pandas as pd
     import matplotlib.pyplot as plt
