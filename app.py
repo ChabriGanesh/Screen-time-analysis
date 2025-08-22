@@ -24,7 +24,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # Decorative Banner Image
-st.image("banner.png", use_column_width=True)
+st.image("images/banner.png", use_column_width=True)
 
 # Stylish Title & Description with Emojis
 st.title("✨ Indian Kids' Screen Time Analysis 📱")
