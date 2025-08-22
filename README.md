@@ -1,3 +1,6 @@
+# Web Application
+https://screen-time-analysis-35n9vc2d5qu3m2e8a2g5bc.streamlit.app/
+
 # 🎬 Screen-time-analysis
 
 Indian Kids' Daily Screen Time analysis through various platform usage and their localities.  
