@@ -44,7 +44,8 @@ The analysis is performed in **JupyterLab** using **Python** and key libraries i
 6. **Visualizations:**  
 - **Average Screen Time by Age:**  
   Bar graph with color-coded age groups.  
-  *Hue = age_group_mean.index (e.g., 8-10, 11-13)*  
+  *Hue = age_group_mean.index (e.g., 8-10, 11-13)*
+  ![Average Screen Time of Indian Kids by their ages.](images/AST(A).png)
 - **Screen Time Distribution by Gender:**  
   Boxplot colored by gender categories.  
 - **Screen Time Distribution (Histogram):**  
