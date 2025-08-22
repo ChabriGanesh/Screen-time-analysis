@@ -47,15 +47,20 @@ The analysis is performed in **JupyterLab** using **Python** and key libraries i
   *Hue = age_group_mean.index (e.g., 8-10, 11-13)*
   ![Average Screen Time of Indian Kids by their ages.](images/AST(A).png)
 - **Screen Time Distribution by Gender:**  
-  Boxplot colored by gender categories.  
+  Boxplot colored by gender categories.
+  ![Average Screen Time of Indian Kids by their genders.](images/STD.png)
 - **Screen Time Distribution (Histogram):**  
-  Distribution across all kids, no hue.  
+  Distribution across all kids, no hue.
+  ![Average Screen Time of Indian Kids by time(hrs).](images/DST.png)
 - **Primary Device Usage Count:**  
-  Count plot colored by primary devices (smartphone, tablet, etc.).  
+  Count plot colored by primary devices (smartphone, tablet, etc.).
+  ![Average Screen Time of Indian Kids by their type of device usage.](images/PSD.png)
 - **Health Impacts Report:**  
-  Count plot horizontally showing health issues, colored by category.  
+  Count plot horizontally showing health issues, colored by category.
+  ![Average Screen Time of Indian Kids by their health impacts.](images/HIR.png)
 - **Exceeded Recommended Screen Time Limits:**  
   Count plot showing binary exceeded/not exceeded groups.
+  ![Excessive Screen Time of Indian Kids limit.](images/STL.png)
 
 ---
 
